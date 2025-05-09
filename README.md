@@ -11,7 +11,7 @@ A new updated design for the custom PCB is now used in this build (with changed 
 
 <img src="images\RPi-flex_PCB02_front01_800w.jpg" width="138" height="250"> &nbsp; &nbsp; &nbsp; &nbsp;<img src="images\RPi-flex_PCB02_back01_800w.jpg" width="142" height="250">  &nbsp; &nbsp; &nbsp; &nbsp;<img src="images\RPi-flex_PCB02_back02_800W.jpg" width="146" height="250">
 
-The completed build is shown in the images below and the latest code for testing individual componentss and managing the robot's operational modes will be made available, along with some usage notes, in due course.
+The completed build is shown in the images below and the latest code for testing individual components and managing the robot's operational modes will be made available, along with some usage notes, in due course.
 
 <img src="images\3WD_robot_20250428_074142243_1000w.jpg" width="287" height="250"> &nbsp; &nbsp; &nbsp; &nbsp;<img src="images\3WD_robot_20250428_074042638_1000w.jpg" width="307" height="250"> 
 
