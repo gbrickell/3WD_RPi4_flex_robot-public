@@ -13,6 +13,8 @@ A new updated design for the custom PCB is now used in this build (with changed 
 
 The completed build is shown in the images below and some initial code for testing individual components can be downloaded from the 'component_testing_code' folder - but the command text and paths for associated  code should be checked/updated for the specific installation.
 
+The C-code used in various other code can be downloaded from the 'C-code' folder - with a gcc compilation command text to produce a .so library provided as a comment, but it should be amended for the appropriate file paths used in the actual installation.
+
 More testing code and managing the robot's operational modes will be made available, along with some usage notes, in due course.
 
 <img src="images\3WD_robot_20250428_074142243_1000w.jpg" width="287" height="250"> &nbsp; &nbsp; &nbsp; &nbsp;<img src="images\3WD_robot_20250428_074042638_1000w.jpg" width="307" height="250"> 
