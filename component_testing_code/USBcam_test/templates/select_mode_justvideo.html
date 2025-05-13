@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <!-- version: 03.00 -->
+  <!-- file name: select_mode_justvideo.html -->
+  <!-- robot controller simle video streaming HTML  -->
+  <!-- :with fixed pixwidth=320, pixheight=240, stopstream=False  -->
+  <!-- Author: Geoff Brickell -->
+  <!-- Date: 250325 -->
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>simple video streaming</title>
+  <meta name="description" content="">
+  <meta name="author" content="GMB">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}"> -->
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/skeleton.css') }}"> -->
+  <link rel="stylesheet" href="../static/css/normalize_advanced.css">
+  <link rel="stylesheet" href="../static/css/skeleton_advanced.css">
+  <link rel="stylesheet" href="../static/font-awesome-4-6-3/css/font-awesome.min.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}"> -->
+  <link rel="icon" type="image/png" href="../static/images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+
+  	<!-- 3rd row of the autonomous video interface: show video  -->
+    <div class="third row">
+      <div style="margin-top: 3%; width: auto; padding-left: 15%; padding-right: 15%; text-align: center;">
+        <img src="{{ url_for('video_feed', pixwidth=640, pixheight=480, stopstream=False) }}">
+      </div>
+    </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
