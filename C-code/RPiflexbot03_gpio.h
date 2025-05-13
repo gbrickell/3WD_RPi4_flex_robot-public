@@ -1,0 +1,13 @@
+void connect();
+int randNum(int debug);
+void set_broadcom(int debug);
+void setIO_GPIO(int pin_number, int type, int debug);
+void set_pud(int in_pin, int type, int debug);
+void set_pin(int out_pin, int state, int debug);
+int setPWM_GPIO(int pwm_pin, int debug);
+void set_pwm(int pwm_pin, int pwmvalue, int debug);
+int read_pin(int in_pin);
+void send_ultra(int trig, int duration, int debug);
+void setlow_ultra(int trig, int duration, int debug);
+int check_onoff(int onoff_last, int onoff, int debug);
+int check_slideswitch(int opmode_last, int s_AD, int s_BE, int s_CF, int debug);
